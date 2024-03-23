@@ -7,7 +7,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [CommonModule, RouterOutlet, RouterLink, RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss', '/node_modules/bootstrap/dist/css/bootstrap.min.css']
 })
 export class AppComponent {
   title = 'personal-site';
